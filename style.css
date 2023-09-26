@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #063970;
+}
+.form-regist {
+  width: 55%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-input {
+  height: 100%;
+  width: 50%;
+  background-color: #fff;
+  padding: 2%;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-right: 0px;
+}
+.form-input h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(41, 38, 38);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+label {
+  color: rgb(41, 38, 38);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 90%;
+}
+.form-input input {
+  width: 100%;
+  margin-top: 3px;
+  padding: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  outline: 0;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.form-input input:focus {
+  border: 1px solid black;
+}
+.form-input select {
+  width: 100%;
+  padding: 3px;
+  margin-top: 3px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.form-input .btnRegist {
+  width: 66%;
+  padding: 5px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  background-color: #5cb85c;
+
+  border-radius: 3px;
+}
+.form-input .btnReset {
+  width: 32%;
+  margin-left: 2%;
+  padding: 5px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  background-color: gold;
+
+  border-radius: 3px;
+}
+.button-group {
+  display: flex;
+}
+.form-input .btnRegist:hover {
+  background-color: #4b9b4b;
+
+  cursor: pointer;
+}
+.form-input .btnReset:hover {
+  background-color: rgb(179, 152, 0);
+
+  cursor: pointer;
+}
+.form-hero {
+  background-image: url("logo-ilc.jpeg");
+  border: 1px solid black;
+  border-left: 0px;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100%;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
